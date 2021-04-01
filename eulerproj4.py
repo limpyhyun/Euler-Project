@@ -3,20 +3,12 @@
 # Find the largest palindrome made from the product of two 3-digit numbers
 
 
-mylist = []
+ans = 0
 
 for a in range(100, 1000):
 	for b in range(100, 1000):
-		n = str(a*b)
-		if 10000 <= a*b < 100000:
-			if n[:2] == (n[3:])[::-1]:
-				mylist.append(a*b)
-		elif 100000 <= a*b < 1000000:
-			if n[:3] == ((n[3:])[::-1]):
-				mylist.append(a*b)
+		if a*b > ans:
+			if str(a*b) == (str(a*b))[::-1]:
+				ans = a * b
 
-mylist = set(mylist)
-mylist = list(mylist)
-mylist.sort()
-
-print(mylist[-1])
+print(ans)
