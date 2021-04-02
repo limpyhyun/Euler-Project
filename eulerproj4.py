@@ -5,8 +5,8 @@
 
 ans = 0
 
-for a in range(100, 1000):
-	for b in range(100, 1000):
+for a in range(1000, 10000):
+	for b in range(1000, 10000):
 		if a*b > ans:
 			if str(a*b) == (str(a*b))[::-1]:
 				ans = a * b
