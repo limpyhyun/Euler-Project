@@ -3,7 +3,7 @@
 # Find the largest palindrome made from the product of two 3-digit numbers
 
 
-ans = 0
+ans = 0 #answer
 
 for a in range(1000, 10000):
 	for b in range(1000, 10000):
