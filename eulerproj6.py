@@ -10,7 +10,7 @@ sum_square = 0
 
 for i in range(1, 101):
 	square_sum += i
-	sum_square += 1**2
+	sum_square += i**2
 square_sum = square_sum**2
 
 ans = square_sum -sum_square
