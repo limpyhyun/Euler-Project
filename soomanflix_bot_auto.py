@@ -7,7 +7,7 @@ tm = time.localtime(time.time())
 yoil = tm.tm_wday
 client = discord.Client()
 
-TOKEN = 'ODQ2NjMwMzA4Mjg3MzQ4NzU4.YKyT6w.q7OaAknoDe7uGTquge3LTMedFQc'
+TOKEN = '니 토큰'
 
 
 조회 = '08:55'#24hrs
@@ -19,7 +19,7 @@ TOKEN = 'ODQ2NjMwMzA4Mjg3MzQ4NzU4.YKyT6w.q7OaAknoDe7uGTquge3LTMedFQc'
 육교시 = '14:35'
 칠교시 = '15:30'
 
-channel_id = '847281760286801940'
+channel_id = '니 '
 
 
 
